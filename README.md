@@ -1,6 +1,6 @@
 # Game Arcade
 
-Welcome to the Arcade Game Carousel repository!
+Welcome to the [Arcade Game](https://jaxsbr.github.io/game-arcade/) Carousel repository!
 
 Here you will find a collection of playable classic arcade games, all hosted elsewhere but accessible from this carousel. Each game will be represented by a custom-designed arcade game console machine, which will have a unified look and feel, but with the ability to be themed per game.
 
