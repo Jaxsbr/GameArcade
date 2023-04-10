@@ -1,12 +1,10 @@
 import React from 'react';
 import './App.css';
-import CarouselComponent from './Components/CarouselComponent';
+import ArcadeSlider from './ArcadeSlider';
 
 function App() {
   return (
-    <div className="App">
-      <CarouselComponent/>
-    </div>
+    <ArcadeSlider />
   );
 }
 
