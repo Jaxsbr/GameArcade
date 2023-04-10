@@ -3,4 +3,5 @@ export type ArcadeMachineType = {
     buttonImage: string;
     footerImage: string;
     gameUrl: string;
+    background: string;
 };

@@ -1,15 +1,20 @@
 import AwesomeSlider from 'react-awesome-slider';
 import 'react-awesome-slider/dist/styles.css';
+import 'react-awesome-slider/dist/custom-animations/open-animation.css';
+import 'react-awesome-slider/dist/custom-animations/cube-animation.css';
+import 'react-awesome-slider/dist/custom-animations/fold-out-animation.css';
+import 'react-awesome-slider/dist/custom-animations/fall-animation.css';
 import { arcadeMachines } from './ArcadeMachines';
 import './App.css';
 
 const ArcadeSlider = () => {
   return (
     <AwesomeSlider 
-      fillParent={true} 
+      fillParent={true}
+      animation='fallAnimation'
       className='arcade-machine'>
       {arcadeMachines.map((arcadeMachine) => (
-          <div>
+          <div style={{ background: arcadeMachine.background}}>
             <div style={{ border: '1px solid black', padding: '10px', width: '200px' }}>
             <div style={{ textAlign: 'center' }}>
               <img 

@@ -9,18 +9,21 @@ const arcadeMachines: Array<ArcadeMachineType> = [
       buttonImage: buttonImage,
       footerImage: footerImage,
       gameUrl: 'https://example.com/game1',
+      background: 'khaki'
     },
     {
       headerImage: headerImage,
       buttonImage: buttonImage,
       footerImage: footerImage,
       gameUrl: 'https://example.com/game1',
+      background: 'skyblue'
     },
     {
       headerImage: headerImage,
       buttonImage: buttonImage,
       footerImage: footerImage,
       gameUrl: 'https://example.com/game1',
+      background: 'wheat'
     },
   ];
 
