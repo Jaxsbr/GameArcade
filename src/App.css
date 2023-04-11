@@ -2,3 +2,35 @@
   margin-top: -60px;
   /* https://github.com/rcaferati/react-awesome-slider/issues/108#issuecomment-591670276 */
 }
+
+.arcade-machine-header {
+  margin-bottom: 50px;
+} .arcade-machine-header img {
+  width: 375px;
+  height: 75px;
+  text-align: center;
+}
+
+.arcade-machine-screen {
+  text-align: center;
+} .arcade-machine-screen img {
+  width: 250px;
+  height: 250px;
+  text-align: center;
+}
+
+.arcade-machine-buttons {
+  text-align: center;
+} .arcade-machine-buttons img {
+  width: 350px;
+  height: 50px;
+  text-align: center;
+}
+
+.arcade-machine-footer {
+  text-align: center;
+} .arcade-machine-footer img {
+  width: 350px;
+  height: 275px;
+  text-align: center;
+}

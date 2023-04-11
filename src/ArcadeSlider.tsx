@@ -6,38 +6,62 @@ import 'react-awesome-slider/dist/custom-animations/fold-out-animation.css';
 import 'react-awesome-slider/dist/custom-animations/fall-animation.css';
 import { arcadeMachines } from './ArcadeMachines';
 import './App.css';
+import React, { FunctionComponent, ReactElement } from 'react';
 
-const ArcadeSlider = () => {
+const ArcadeSlider: FunctionComponent = () => {
+
+  const header = (headerImage: string): ReactElement => {
+    return (
+      <div className='arcade-machine-header'>
+        <img 
+          src={headerImage} 
+          alt="header" />
+      </div>
+    );
+  };
+
+  const screen = (screenImage: string): ReactElement => {
+    return (
+      <div className='arcade-machine-screen'>
+        <img 
+          src={screenImage} 
+          alt="play" />
+      </div>
+    );
+  };
+
+  const buttons = (buttonImage: string): ReactElement => {
+    return (
+      <div className='arcade-machine-buttons'>
+        <img 
+          src={buttonImage} 
+          alt="screen" />
+      </div>
+    );
+  };
+
+  const footer = (footerImage: string): ReactElement => {
+    return (
+      <div className='arcade-machine-footer'>
+        <img 
+          src={footerImage} 
+          alt="footer" />
+      </div>
+    );
+  };
+
   return (
     <AwesomeSlider 
       fillParent={true}
-      animation='fallAnimation'
+      animation='cubeAnimation'
       className='arcade-machine'>
       {arcadeMachines.map((arcadeMachine) => (
           <div style={{ background: arcadeMachine.background}}>
-            <div style={{ border: '1px solid black', padding: '10px', width: '200px' }}>
-            <div style={{ textAlign: 'center' }}>
-              <img 
-                src={arcadeMachine.headerImage} 
-                alt="header" />
-            </div>
-            <div style={{ display: 'flex', justifyContent: 'center' }}>
-              <img 
-                src={arcadeMachine.buttonImage} 
-                alt="play" 
-                style={{ width: '100px', height: '100px', cursor: 'pointer' }} 
-                onClick={() => window.location.href = arcadeMachine.gameUrl} />
-            </div>
-            <div style={{ textAlign: 'center', marginTop: '10px' }}>
-              <img 
-                src={arcadeMachine.footerImage} 
-                alt="footer" />
-            </div>
-            <div>
-              {arcadeMachine.gameUrl}
-            </div>
+            {header(arcadeMachine.headerImage)}
+            {screen(arcadeMachine.screenImage)}
+            {buttons(arcadeMachine.buttonImage)}
+            {footer(arcadeMachine.footerImage)}
           </div>
-        </div>
       ))}
     </AwesomeSlider>
   );
