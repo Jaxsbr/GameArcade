@@ -1,15 +1,19 @@
 {
   "files": {
-    "main.css": "/game-arcade/static/css/main.60d6317f.css",
-    "main.js": "/game-arcade/static/js/main.aa34cafb.js",
+    "main.css": "/game-arcade/static/css/main.c9144428.css",
+    "main.js": "/game-arcade/static/js/main.0384052d.js",
     "static/js/787.99713b15.chunk.js": "/game-arcade/static/js/787.99713b15.chunk.js",
+    "static/media/footer.png": "/game-arcade/static/media/footer.a20a1b2b5a1e9343cf9f.png",
+    "static/media/screen.png": "/game-arcade/static/media/screen.2af8548eecb07a40af37.png",
+    "static/media/header.png": "/game-arcade/static/media/header.ea3265f4e4829234dfe9.png",
+    "static/media/button.png": "/game-arcade/static/media/button.40fdac28d54e98ace72b.png",
     "index.html": "/game-arcade/index.html",
-    "main.60d6317f.css.map": "/game-arcade/static/css/main.60d6317f.css.map",
-    "main.aa34cafb.js.map": "/game-arcade/static/js/main.aa34cafb.js.map",
+    "main.c9144428.css.map": "/game-arcade/static/css/main.c9144428.css.map",
+    "main.0384052d.js.map": "/game-arcade/static/js/main.0384052d.js.map",
     "787.99713b15.chunk.js.map": "/game-arcade/static/js/787.99713b15.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.60d6317f.css",
-    "static/js/main.aa34cafb.js"
+    "static/css/main.c9144428.css",
+    "static/js/main.0384052d.js"
   ]
 }
