@@ -1,16 +1,15 @@
 {
   "files": {
-    "main.css": "/game-arcade/static/css/main.073c9b0a.css",
-    "main.js": "/game-arcade/static/js/main.da97781c.js",
+    "main.css": "/game-arcade/static/css/main.60d6317f.css",
+    "main.js": "/game-arcade/static/js/main.25795d65.js",
     "static/js/787.99713b15.chunk.js": "/game-arcade/static/js/787.99713b15.chunk.js",
-    "static/media/logo.svg": "/game-arcade/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/game-arcade/index.html",
-    "main.073c9b0a.css.map": "/game-arcade/static/css/main.073c9b0a.css.map",
-    "main.da97781c.js.map": "/game-arcade/static/js/main.da97781c.js.map",
+    "main.60d6317f.css.map": "/game-arcade/static/css/main.60d6317f.css.map",
+    "main.25795d65.js.map": "/game-arcade/static/js/main.25795d65.js.map",
     "787.99713b15.chunk.js.map": "/game-arcade/static/js/787.99713b15.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.da97781c.js"
+    "static/css/main.60d6317f.css",
+    "static/js/main.25795d65.js"
   ]
 }
