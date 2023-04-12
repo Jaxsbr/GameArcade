@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import ArcadeSlider from './ArcadeSlider';
+import ArcadeSlider from './ArcadeMachineSlider';
 
 function App() {
   return (

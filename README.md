@@ -17,3 +17,11 @@ In the project directory, you can run:
 `npm start`  
 `npm test`  
 `npm run build`  
+
+## Carousel/Slider
+
+From https://github.com/rcaferati/react-awesome-slider
+
+## SVG to JSX
+
+I used https://svg2jsx.com/ to convert SVG's to components

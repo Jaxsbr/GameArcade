@@ -1,8 +1,7 @@
+import { ReactElement } from "react";
+
 export type ArcadeMachineType = {
-    headerImage: string;
-    screenImage: string;
-    buttonImage: string;
-    footerImage: string;
+    reactElement: ReactElement;
     gameUrl: string;
     background: string;
 };
