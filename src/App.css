@@ -9,3 +9,25 @@
   z-index: 0;
   text-align: 'center';
 }
+
+.arcade-machine-game-url {
+  text-align: center;
+}
+
+.arcade-machine-game-url a {
+  text-decoration: none;
+  color: #9370DB;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  display: inline-block;
+  border: 3px solid #9370DB;
+  padding: 10px 20px;
+  background-color: #2e2d2d;
+  transition: all 0.3s ease;
+} .arcade-machine-game-url a:hover {
+    border: 3px solid #8A2BE2;
+    background-color: #111;
+    color: #8A2BE2;
+    transform: translateY(-2px);
+}

@@ -12,9 +12,16 @@ const ArcadeMachineSlider: FunctionComponent = () => {
       animation='cubeAnimation'
       className='arcade-machine'>
       {arcadeMachines.map((arcadeMachine, index) => (
-          <div key={index} className='arcade-machine-container' style={{ background: arcadeMachine.background}}>
+        <>
+          {/* <div key={index} className='arcade-machine-container' style={{ background: arcadeMachine.background}}> */}
+          <div key={index} className='arcade-machine-container' style={{ backgroundColor: 'transparent'}}>
             {arcadeMachine.reactElement}
           </div>
+          {/* TODO: Apply style from arcadeMachine.buttonStyles */}
+          <div key={`${index}-gameUrl`} className='arcade-machine-game-url'>
+            <a href={arcadeMachine.gameUrl}>Play</a>
+          </div>
+        </>
       ))}
     </AwesomeSlider>
   );

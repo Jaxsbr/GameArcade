@@ -4,8 +4,8 @@ import { ArcadeMachineType } from './types/ArcadeMachineType';
 
 const arcadeMachines: Array<ArcadeMachineType> = [
     {
-      reactElement: <RoboWar width='400' height='900' />,
-      gameUrl: 'https://example.com/game1',
+      reactElement: <RoboWar width='300' height='700' />,
+      gameUrl: 'https://jaxsbr.github.io/RoboWar/',
       background: 'linear-gradient(to bottom, #000000, #9370DB, #8A2BE2)'
     },
     {
