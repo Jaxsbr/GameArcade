@@ -1,21 +1,22 @@
 import ArcadeImage from './arcade-games/ArcadeImage';
+import RoboWar from './arcade-games/RoboWar';
 import { ArcadeMachineType } from './types/ArcadeMachineType';
 
 const arcadeMachines: Array<ArcadeMachineType> = [
     {
-      reactElement: <ArcadeImage width='400' height='900' />,
+      reactElement: <RoboWar width='400' height='900' />,
       gameUrl: 'https://example.com/game1',
-      background: 'khaki'
+      background: 'linear-gradient(to bottom, #000000, #9370DB, #8A2BE2)'
     },
     {
       reactElement: <ArcadeImage width='400' height='900' />,
       gameUrl: 'https://example.com/game1',
-      background: 'skyblue'
+      background: 'linear-gradient(to bottom, #000000, cornflowerblue, skyblue)'
     },
     {
       reactElement: <ArcadeImage width='400' height='900' />,
       gameUrl: 'https://example.com/game1',
-      background: 'wheat'
+      background: 'linear-gradient(to bottom, #000000, palegoldenrod, wheat)'
     },
   ];
 

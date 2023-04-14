@@ -11,8 +11,8 @@ const ArcadeMachineSlider: FunctionComponent = () => {
       fillParent={true}
       animation='cubeAnimation'
       className='arcade-machine'>
-      {arcadeMachines.map((arcadeMachine) => (
-          <div className='arcade-machine-container' style={{ background: arcadeMachine.background}}>
+      {arcadeMachines.map((arcadeMachine, index) => (
+          <div key={index} className='arcade-machine-container' style={{ background: arcadeMachine.background}}>
             {arcadeMachine.reactElement}
           </div>
       ))}
