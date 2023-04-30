@@ -10,7 +10,7 @@ const arcadeMachines: Array<ArcadeMachineType> = [
     },
     {
       reactElement: <ArcadeImage width='300' height='600' />,
-      gameUrl: 'https://example.com/game1',
+      gameUrl: 'https://jaxsbr.github.io/PhaserTowersDefense/',
       background: 'linear-gradient(to bottom, #000000, cornflowerblue, skyblue)'
     },
     {
