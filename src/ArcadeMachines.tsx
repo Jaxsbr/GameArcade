@@ -8,16 +8,11 @@ const arcadeMachines: Array<ArcadeMachineType> = [
       gameUrl: 'https://jaxsbr.github.io/RoboWar/',
       background: 'linear-gradient(to bottom, #000000, #9370DB, #8A2BE2)'
     },
-    {
-      reactElement: <ArcadeImage width='300' height='600' />,
-      gameUrl: 'https://jaxsbr.github.io/PhaserTowersDefense/',
-      background: 'linear-gradient(to bottom, #000000, cornflowerblue, skyblue)'
-    },
-    {
-      reactElement: <ArcadeImage width='300' height='600' />,
-      gameUrl: 'https://example.com/game1',
-      background: 'linear-gradient(to bottom, #000000, palegoldenrod, wheat)'
-    },
+    // {
+    //   reactElement: <ArcadeImage width='300' height='600' />,
+    //   gameUrl: 'https://jaxsbr.github.io/PhaserTowersDefense/',
+    //   background: 'linear-gradient(to bottom, #000000, cornflowerblue, skyblue)'
+    // },
   ];
 
   export { arcadeMachines };
